@@ -1,0 +1,635 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Dosis', sans-serif;
+}
+
+header{
+    background-color: black;
+    width:100%;
+    height:10vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div > h2{
+    color: #f8fafb;
+    cursor: pointer;
+}
+
+#introduction{
+    width:100%;
+    height:90vh;
+    background-image: url("../headingBack.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-content: left;
+}
+
+#profile{
+    margin-top:10vh;
+    width:100%;
+    height:70vh;
+    background-image: url("../profileImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+}
+
+#intro-words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1px;
+}
+
+#intro-words > div {
+
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+
+}
+
+#hello{
+    font-weight: lighter;
+    font-size: 8rem;
+}
+
+#name{
+    font-weight: lighter;
+    font-size: 10rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+#intro-words  > h3{
+    font-size: 2rem;
+
+}
+
+#projects{
+    background-color: black;
+    width: 100%;
+    height:110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#project-heading{
+    margin-top: 5vh;
+    width:37vw;
+    height:25vh;
+    background-image: url("../pro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#project-grid{
+    width:90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:4vw;
+}
+
+#project-grid > div{
+    width:100%;
+    height:30vh;
+}
+
+#rasa{
+    width:100%;
+    background-image: url("../RASAWebsite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#tindog{
+    width:100%;
+    background-image: url("../TinDogWebsite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#adparts{
+    width:100%;
+    background-image: url("../ADPartsWebsite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#rapid{
+    width:100%;
+    background-image: url("../RapidFireWebsite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#about{
+    height:130vh;
+    width: 100vw;
+    background-image: url("../about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-heading{
+    width:37vw;
+    height:25vh;
+    background-image: url("../aboutheading.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#gif-container{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+#gif{
+    width:35vw;
+    height:25vh;
+    background-image: url("../gif.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#about-me{
+    height:100vh;
+    width:50%;
+    color: #f8fafb;
+    font-size: 2rem;
+}
+
+#skills{
+    width:100%;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap:5vh;
+    padding:5px;
+    background-color: black;
+}
+
+
+
+.skill{
+    border-radius: 20px;
+    background-color: grey;
+    height:8vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:#f8fafb;
+    gap:30px;
+    padding-left: 20px;
+}
+
+#skill-heading-container{
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#skill-heading{
+    background-image: url("../skillheading.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:37vw;
+    height:30vh;
+
+
+}
+
+.goldband{
+    width:100%;
+    height:3vh;
+    background-image: url("../goldband.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#education{
+    width:100%;
+    height:100vh;
+    background-color: #f8fafb;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap:10vh;
+}
+
+#education-heading{
+    background-image: url("../eduheading.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:37vw;
+    height:20vh;
+
+}
+
+#exp{
+    width:100%;
+    height:100vh;
+    background-color: #f8fafb;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap:10vh;
+}
+
+#exp-heading{
+    background-image: url("../expheading.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:37vw;
+    height:20vh;
+}
+
+#contact{
+    width:100%;
+    height:120vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10vh;
+}
+
+#contact-heading{
+    background-image: url("../contactheading.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:37vw;
+    height:30vh;
+    margin-top:5vh;
+}
+
+.contact-banner{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap:5vh;
+    padding:2rem;
+}
+
+.banner{
+    background-color: #f2b3c4;
+    width:70vw;
+    height:3vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding:5vw 0;
+    border-radius: 30px;
+    gap: 5vw;
+}
+
+.banner h2{
+    color:white;
+    font-size: 2.6rem;
+}
+
+.banner h3{
+    font-size: 1.5rem;
+}
+
+.sloth{
+    width:20%;
+    height:20vh;
+    background-image: url("../sloth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#java{
+    background-color: #de8a03;
+}
+
+#java-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../java.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+#c\+\+{
+    background-color: #0075c0;
+}
+
+#c\+\+-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../C++.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#c\#{
+    background-color: #00e676;
+}
+
+#c\#-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../csharp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#js{
+    background-color: #404137;
+}
+
+#js-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../javaScript.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#php{
+    background-color: #777bb3;
+}
+
+#php-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../php.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#html{
+    background-color: #f16529;
+}
+
+#html-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../html.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#css{
+    background-color: #2980b9;
+}
+
+#css-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../css.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#boot{
+    background-color: #673ab7;
+}
+
+#boot-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../bootstrap.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#ill{
+    background-color: #de8a03;
+}
+
+#ill-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../illistrator.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#photo{
+    background-color: #1266a9;
+}
+
+#photo-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../photoshop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#postman{
+    background-color: #f16529;
+}
+
+#postman-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../postman.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#git{
+    background-color: #666666;
+}
+
+#git-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../git.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#ionic{
+    background-color: #00549d;
+}
+
+#ionic-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../ionic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#ts{
+    background-color: #1266a9;
+}
+
+#ts-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../typescript.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#node{
+    background-color: #87b84b;
+}
+
+#node-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../node.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#express{
+    background-color: #de8a03;
+}
+
+#express-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../express.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#query{
+    background-color: #0277bd;
+}
+
+#query-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../jquery.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#angular{
+    background-color: #b52e31;
+}
+
+#angular-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../angular.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#react{
+    background-color: #00549d;
+}
+
+#react-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../React.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#sql{
+    background-color: #aeb2d5;
+}
+
+#sql-logo{
+    width:30%;
+    height:100%;
+    background-image: url("../mysql.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.edbanner{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width:90%;
+    height:60vh;
+    gap: 30px;
+}
+
+.edbanner > div {
+    background-color: black;
+    border-radius: 20px;
+    padding:30px;
+}
+
+.edbanner > div > h3{
+    font-size: 3.5rem;
+    color:#f2b3c4;
+}
+
+.edbanner > div > h4{
+    color:white;
+    font-size: 2.5rem;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color:inherit;
+}
+
